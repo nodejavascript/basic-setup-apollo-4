@@ -1,0 +1,12 @@
+{
+  "name": "basic-setup-apollo-4",
+  "version": "1.0.0",
+  "description": "Apollo 4 express setup with Apollo 3 react and ant design",
+  "keywords": [],
+  "author": "nodejavascript",
+  "license": "SEE LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejavascript/basic-setup-apollo-4.git"
+  }
+}

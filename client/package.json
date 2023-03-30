@@ -1,0 +1,53 @@
+{
+  "name": "basic-setup-apollo-4:client",
+  "version": "0.0.1",
+  "author": "nodejavascript",
+  "license": "SEE LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejavascript/basic-setup-apollo-4.git"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "standard  --verbose"
+  },
+  "dependencies": {
+    "@ant-design/plots": "^1.2.5",
+    "@apollo/client": "^3.7.4",
+    "@scaleway/use-query-params": "^4.0.4",
+    "antd": "5.2.0",
+    "dayjs": "^1.11.7",
+    "graphql": "^16.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-force-graph-3d": "^1.22.0",
+    "react-ga4": "^1.4.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

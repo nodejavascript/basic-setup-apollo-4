@@ -1,0 +1,50 @@
+{
+  "name": "basic-setup-apollo-4:server",
+  "version": "0.0.1",
+  "author": "nodejavascript",
+  "license": "SEE LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodejavascript/basic-setup-apollo-4.git"
+  },
+  "scripts": {
+    "start": "nodemon -r -q esm index.js",
+    "test": "standard --verbose"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.3.0",
+    "@jsdevtools/readdir-enhanced": "^6.0.4",
+    "beepbeep": "^1.3.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "fs-readfile-promise": "^3.0.1",
+    "fs-writefile-promise": "^3.0.2",
+    "graphql": "^16.6.0",
+    "helmet": "^6.0.1",
+    "joi": "^17.7.0",
+    "node-fetch": "^2.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "ignore": [
+      ".env",
+      "/src/routes/react*"
+    ],
+    "globals": [
+    ],
+    "rules": {
+      "indent": [
+        2,
+        "tab"
+      ],
+      "no-tabs": 0,
+      "camelcase": 0
+    }
+  },
+  "resolutions": {}
+}
