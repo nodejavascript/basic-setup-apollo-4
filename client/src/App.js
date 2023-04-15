@@ -1,5 +1,6 @@
 import React from 'react'
 
+import SiteWrapper from './layout/SiteWrapper'
 import GraphqlClient from './GraphqlClient'
 import Home from './Home'
 
@@ -7,7 +8,9 @@ const App = () => {
   return (
     <GraphqlClient>
 
-      <Home />
+      <SiteWrapper>
+        <Home />
+      </SiteWrapper>
 
     </GraphqlClient>
   )
